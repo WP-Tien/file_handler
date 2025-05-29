@@ -19,4 +19,4 @@ If multiple goroutines need to access the same file concurrently, use a mutex to
 - os.O_APPEND: Append data to the end of the file.
 - os.O_CREATE: Create the file if it doesn't exist.
 - os.O_TRUNC: Truncate the file to zero length.
-io.EOF: When reading from a file, io.EOF signals the end of the file. 
+- io.EOF: When reading from a file, io.EOF signals the end of the file. 
